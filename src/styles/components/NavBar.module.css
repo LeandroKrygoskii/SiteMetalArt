@@ -1,0 +1,59 @@
+.container{
+    background-color: #1a1a1a;
+    
+   
+   overflow: hidden;
+    
+    
+}
+.navList{
+    letter-spacing: 2px;
+    margin-left: 5px;
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgLogo{
+    width: 100%;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    
+    
+}
+.textContact{
+    font-size: 14px;
+    color: #000;
+    margin-top: -12px;
+}
+
+.navItem{
+    margin-left: 10px;
+}
+.navSocials{
+  
+    margin-right: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkSocial{
+    margin-left: 20px;
+}
+
+.imgSocial{
+    width: 100%;
+}

@@ -1,0 +1,45 @@
+.container{
+    height: 250px;
+    width: 250px;
+    margin-left: 45px;
+    margin-bottom: 200px;
+
+ 
+    
+}
+
+.container:hover{
+    cursor: pointer;
+    transform: translate3d(0px, -10px, 0px);
+    transition: 0.7s ease;
+}
+
+.card{
+   
+  
+    background: rgb(184,218,255);
+    background:linear-gradient(90deg, rgba(14,30,47,1) 5%, rgba(5,36,54,1) 23%, rgba(12,29,71,1) 48%, rgba(5,36,54,1) 79%, rgba(14,30,47,1) 95%);
+    border-radius: 20px;
+
+    box-shadow: -1px 3px 14px 6px rgba(85,85,85,0.75);
+   -webkit-box-shadow: -1px 3px 14px 6px rgba(85,85,85,0.75);
+   -moz-box-shadow: -1px 3px 14px 6px rgba(85,85,85,0.75);
+}
+
+.img{
+    border-radius: 20px;
+}
+
+.title{
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.subTitle{
+    color:#052448;
+}
+
+.content{
+    color: #f2f2f2;
+}
+
