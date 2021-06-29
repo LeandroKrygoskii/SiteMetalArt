@@ -76,7 +76,7 @@ export default function Home() {
                  </div>  
                  <hr className={styles.line}/> 
 
-                 <section>
+                 <section  className={styles.secContainer}>
                    <main className={styles.mainForm}> 
                       <form>
                         <fieldset style={{border:0, marginBottom: 30}}>
@@ -92,7 +92,7 @@ export default function Home() {
                           </div>
 
                           <div className={styles.inputBlock}>
-                              <label  className={styles.inputLabel} htmlFor="about">Conte a história do amiguinho(a) <span>Máximo de 300 caracteres</span></label>
+                              <label  className={styles.inputLabel} htmlFor="about">Assunto <span>Máximo de 300 caracteres</span></label>
                               <textarea className={styles.textArea} 
                               id="about" 
                               maxLength={300} 
@@ -109,9 +109,7 @@ export default function Home() {
             
                
         </div>
-
-        
-        
+  
     </Container>
     
   )
